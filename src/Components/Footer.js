@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Link} from "react-router-dom";
 // import {default as logo} from '../assets/images/head-logo.svg'
 import SvgComponent from "./Svg";
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 
 
 export const Footer = (props) => {
@@ -13,9 +14,11 @@ export const Footer = (props) => {
                 <div className="custom-container">
                     <div className="footer-top-nav">
                         <ul>
-                            <li><Link to="/about">About</Link></li>
-                            <li><Link to="/faq">FAQ</Link></li>
-                            <li><Link to="/termsagreements">Terms and Agreements</Link></li>
+                            <li><Link to="Home">Home</Link></li>
+                            <li><Link to="About">About Us</Link></li>
+                            <li><Link to="ContactUs">Contact Us</Link></li>
+                            <li><Link to="OutTeam">Our Team</Link></li>
+                            <li><Link to="Services">Services</Link></li>
                             {/*<li><Link to="/privacypolicy">Privacy Policy</Link></li>*/}
                             {/*<li><Link to="/legality">Legality</Link></li>*/}
                             {/*<li><Link to="/fairplay">Fair Play Commitment</Link></li>*/}
@@ -79,7 +82,7 @@ export const Footer = (props) => {
                             </ul>
                         </div>
                         <div className="custom-col ftr-location">
-                            <h4>Questions? <a href="/Contact" style={{color: '#808080'}}>Contact Us!</a></h4>
+                            <h4>Questions? <a href="/ContactUs.js" style={{color: '#808080'}}>Contact Us!</a></h4>
 
                             <span className="ftr_cont_email">
                                 <strong>Email:</strong>
