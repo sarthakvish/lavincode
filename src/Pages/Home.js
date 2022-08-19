@@ -1,5 +1,5 @@
 import React from 'react';
-
+import vedio from '../src/assets/vedio.mp4'
 const Home = () => {
     return (
         <div>

@@ -130,7 +130,7 @@ figure {
 }
 
 .custom-row {
-    /* display: flex; */
+     display: flex;
     flex-wrap: wrap;
     margin-left: -15px;
     margin-right: -15px;
@@ -6145,3 +6145,9 @@ textarea.statment_box {
     width: 23%;
 }
 /* css added by Rakes on 05-10-2021 */
+.vedio {
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+}
+

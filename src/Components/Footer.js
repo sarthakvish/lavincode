@@ -1,8 +1,6 @@
 import * as React from 'react';
 import { Link} from "react-router-dom";
-// import {default as logo} from '../assets/images/head-logo.svg'
-import SvgComponent from "./Svg";
-import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
+import logo from "../assets/images/logo.png"
 
 
 export const Footer = (props) => {
@@ -16,9 +14,11 @@ export const Footer = (props) => {
                         <ul>
                             <li><Link to="Home">Home</Link></li>
                             <li><Link to="About">About Us</Link></li>
-                            <li><Link to="ContactUs">Contact Us</Link></li>
-                            <li><Link to="OutTeam">Our Team</Link></li>
                             <li><Link to="Services">Services</Link></li>
+                            <li><Link to="OurTeam">Our Team</Link></li>
+                            <li><Link to="ContactUs">Contact Us</Link></li>
+
+
                             {/*<li><Link to="/privacypolicy">Privacy Policy</Link></li>*/}
                             {/*<li><Link to="/legality">Legality</Link></li>*/}
                             {/*<li><Link to="/fairplay">Fair Play Commitment</Link></li>*/}
@@ -32,16 +32,15 @@ export const Footer = (props) => {
                     <div className="custom-row">
                         <div className="custom-col ftr-about">
                             <figure>
-                                <SvgComponent style={{height:100}}/>
-                                {/*<Link to="/Home"><img src={logo} alt="" /></Link>*/}
+                                <Link to="/Home"><img src={logo} alt="" /></Link>
                                 <figcaption>© 2021 - 2022 Lavin Code18. All Rights Reserved.</figcaption>
                             </figure>
                         </div>
                         <div className="custom-col ftr-pages">
                             <h4>pages</h4>
                             <ul className="ftr-btm-nav">
-                            {/*    <li><Link to="/about">About</Link></li>*/}
-                            {/*    <li><Link to="/faq">FAQ</Link></li>*/}
+                                <li><Link to="Home">About</Link></li>
+                                <li><Link to="Home">FAQ</Link></li>
                             {/*    <li><Link to="/termsagreements">Terms and Agreements</Link></li>*/}
                             {/*    <li><Link to="/privacypolicy">Privacy Policy</Link></li>*/}
                             {/*    <li><Link to="/legality">Legality</Link></li>*/}
@@ -86,13 +85,13 @@ export const Footer = (props) => {
 
                             <span className="ftr_cont_email">
                                 <strong>Email:</strong>
-                                <a href="mailto: peerlayllc@gmail.com">lavincode18@gmail.com</a>
+                                <a href="mailto: lavincode18@gmail.com">lavincode18@gmail.com</a>
                             </span>
 
                             <ul className="social-icon">
-                                {/*<li><a href="https://www.facebook.com/Peerlay-103292441858451" target="_blank"><i className="fa fa-facebook" aria-hidden="true" /></a></li>*/}
-                                {/*<li><a href="https://twitter.com/PeerlayLLC" target="_blank"><i className="fa fa-twitter" aria-hidden="true" /></a></li>*/}
-                                {/*<li><a href="https://www.instagram.com/peerlayllc/" target="_blank"><i className="fa fa-instagram" aria-hidden="true" /></a></li>*/}
+                                <li><a href="https://www.facebook.com/Peerlay-103292441858451" target="_blank"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
+                                <li><a href="https://twitter.com/PeerlayLLC" target="_blank"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
+                                <li><a href="https://www.instagram.com/peerlayllc/" target="_blank"><i className="fa fa-instagram" aria-hidden="true" /></a></li>
                             </ul>
                         </div>
                     </div>
