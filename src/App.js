@@ -50,6 +50,7 @@ function App() {
     <div className="App">
         <LoginHeader/>
         <section className="main-banner">
+
             <div className="custom-container">
                 <div className="captionBox">
                     {/*<figure>*/}
