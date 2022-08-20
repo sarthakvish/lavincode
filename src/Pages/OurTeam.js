@@ -1,9 +1,13 @@
 import React from 'react';
 
-function OurTeam(props) {
+
+const OurTeam = () => {
     return (
-        <div>Team</div>
+        <div>
+            <h1>OurTeam</h1>
+        </div>
     );
-}
+};
 
 export default OurTeam;
+
