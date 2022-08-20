@@ -541,11 +541,6 @@ header {
 /* =========== end: main-banner =========== */
 
 /* =========== start: why-peerlay =========== */
-
-.why-peerlay {
-    padding: 60px 0 30px;
-}
-
 .why-peerlay h1 {
     padding-bottom: 55px;
 }
@@ -6147,7 +6142,16 @@ textarea.statment_box {
 /* css added by Rakes on 05-10-2021 */
 .vedio {
     object-fit: cover;
-    height: 50%;
+    height: 100vh;
     width: 100%;
 }
+.wrapper {
+    padding: 5px 20px;
+}
 
+.wrapper fieldset {
+    margin: 20px 0;
+}
+input{
+    border: 1px solid black;
+}

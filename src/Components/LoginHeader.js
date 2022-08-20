@@ -2,8 +2,7 @@ import * as React from 'react';
 import { useState, useEffect } from 'react';
 import logo from "../assets/images/logo.png"
 import { Link } from 'react-router-dom';
-
-
+import {BrowserRouter as Route, Routes} from "react-router-dom";
 
 
 export const LoginHeader = () => {
@@ -54,10 +53,10 @@ export const LoginHeader = () => {
                         <nav className="main_nav">
                             <ul>
                                 <li><Link to="Home">Home</Link></li>
-                                <li><Link to="Home">About Us</Link></li>
-                                <li><Link to="Home">Services</Link></li>
-                                <li><Link to="Home">Our Team</Link></li>
-                                <li><Link to="Home">Contact Us</Link></li>
+                                <li><Link to="About">About Us</Link></li>
+                                <li><Link to="Services">Services</Link></li>
+                                <li><Link to="OurTeam">Our Team</Link></li>
+                                <li><Link to="ContactUs">Contact Us</Link></li>
                                 {/*<li><Link onClick={() => setRefundModal(!refundModal)}>Withdraw</Link></li>*/}
                                 {/* <Modal
                 isOpen={refundModal}
