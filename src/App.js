@@ -9,6 +9,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import vedio from '../src/assets/vedio.mp4'
+import ContactUs from "./Pages/ContactUs";
+import Home from "./Pages/Home";
+import Services from "./Pages/Services";
+import About from "./Pages/About";
+import OurTeam from "./Pages/OurTeam";
 
 function App() {
     const [testimonealsArray, setTestimonealsArray] = React.useState([]);
@@ -49,20 +54,7 @@ function App() {
   return (
     <div className="App">
         <LoginHeader/>
-        <section className="main-banner">
-            <div className="custom-container">
-                <div className="captionBox">
-                    {/*<figure>*/}
-                    {/*    <Link to="/"><img src={LOGO} alt="" /></Link>*/}
-                    {/*</figure>*/}
 
-                    {/*{!isLogin() &&*/}
-                    {/*    <Link to="Signup" className="sign-btn">Sign Up Now</Link>*/}
-                    {/*}*/}
-                    <h4>A Revolutionary Software Developement for IT and Core Sectors!</h4>
-                </div>
-            </div>
-        </section>
         <section className="why-peerlay">
             <video className="vedio" src={vedio} autoPlay loop muted/>
             <div className="custom-container">
@@ -163,10 +155,11 @@ function App() {
         {/*    </div>*/}
         {/*</section>*/}
         <Routes>
-            <Route path="/Home" element={<h1>megha</h1>}/>
-            <Route path="/Home" element={<h1>megha</h1>}/>
-            <Route path="/Home" element={<h1>megha</h1>}/>
-            <Route path="/Home" element={<h1>megha</h1>}/>
+            <Route path="/Home" element={<Home/>}/>
+            <Route path="/ContactUs" element={<ContactUs/>}/>
+            <Route path="/About" element={<About/>}/>
+            <Route path="/OurTeam" element={<OurTeam/>}/>
+            <Route path="/Services" element={<Services/>}/>
 
 
         </Routes>

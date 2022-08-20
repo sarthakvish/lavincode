@@ -1,9 +1,11 @@
 import React from 'react';
-import vedio from '../src/assets/vedio.mp4'
+
 const Home = () => {
     return (
         <div>
-            <h1>home</h1>
+            <h1>home -
+                "A Revolutionary Software Developement for IT and Core Sectors!"
+            </h1>
         </div>
     );
 };
