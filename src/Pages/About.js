@@ -1,11 +1,27 @@
 import React from 'react';
+import ProductCarousel from "../Components/Carousel";
+import {Card, Button, Col, Row, ListGroup, Image, ListGroupItem, Container} from "react-bootstrap";
+
 
 const About = () => {
     return (
-        <div>
-            <h1>About</h1>
+        <>
+            <Container>
+                <h1>About</h1>
+                <Row>
+                    <Col>
+                        <ProductCarousel/>
+                    </Col>
+                </Row>
 
-        </div>
+                <Row>
+                </Row>
+            </Container>
+
+
+
+
+        </>
     );
 };
 
