@@ -1,6 +1,6 @@
 import './App.css';
 import {Footer} from "./Components/Footer";
-import "../src/assets/css/style.css";
+// import "../src/assets/css/style.css";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import * as React from "react";
 import {LoginHeader} from "./Components/LoginHeader";
