@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {Link} from "react-router-dom";
 import {Carousel, Image} from "react-bootstrap";
 import contactus from "../assets/images/contactusgirl.png"
+import "../App.css"
 
 function ProductCarousel(props) {
 
@@ -9,11 +10,16 @@ function ProductCarousel(props) {
     // const {error, loading, products} = productTopRated
 
     return (
-        <Carousel pause='hover' className='bg-dark'>
+        <Carousel pause='hover' className='bg-dark carousel-body'>
 
-            <Carousel.Item>
+            <Carousel.Item
+                nextLabel={"Next"}
+                prevLabel={"Previous"}
+
+
+            >
                 <Link to="">
-                    <Image src={contactus} alt="h"/>
+                    <Image className="carousel-img" src={contactus} alt="h"/>
                     <Carousel.Caption>
                         <h4>e-commerse plateform (Rs.1,50000)</h4>
                     </Carousel.Caption>
@@ -22,7 +28,7 @@ function ProductCarousel(props) {
 
             <Carousel.Item>
                 <Link to="">
-                    <Image src={contactus} alt="kk"/>
+                    <Image className="carousel-img" src={contactus} alt="kk"/>
                     <Carousel.Caption>
                         <h4>Email Engine (Rs. 800000)</h4>
                     </Carousel.Caption>
