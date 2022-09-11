@@ -124,7 +124,11 @@ export const Footer = () => {
                                     {/*</p>*/}
                                     <CDBBox display="flex" className="mt-4">
                                         <CDBBtn flat color="dark">
-                                            <CDBIcon fab icon="facebook-f" />
+
+                                            <a href="https://www.facebook.com/LavinCode18/">
+                                                <CDBIcon fab icon="facebook-f"/>
+                                            </a>
+
                                         </CDBBtn>
                                         <CDBBtn flat color="dark" className="mx-3">
                                             <CDBIcon fab icon="twitter" />
