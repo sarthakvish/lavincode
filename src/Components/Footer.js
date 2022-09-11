@@ -1,5 +1,5 @@
 // import * as React from 'react';
-// import { Link} from "react-router-dom";
+import { Link} from "react-router-dom";
 import logo from "../assets/images/logo.png"
 //
 //
@@ -103,6 +103,9 @@ import logo from "../assets/images/logo.png"
 import React from 'react';
 import { CDBFooter, CDBFooterLink, CDBBox, CDBBtn, CDBIcon } from 'cdbreact';
 import {Row, Col, Image, ListGroup, ListGroupItem} from "react-bootstrap";
+import {
+LinkedinFilled
+} from '@ant-design/icons';
 import contactus from "../assets/images/contactusgirl.png";
 
 export const Footer = () => {
@@ -122,19 +125,22 @@ export const Footer = () => {
                                     {/*    We are creating High Quality Resources and tools to Aid developers during the*/}
                                     {/*    developement of their projects*/}
                                     {/*</p>*/}
-                                    <CDBBox display="flex" className="mt-4">
-                                        <CDBBtn flat color="dark">
+                                    <CDBBox style={{marginLeft:"17px"}} display="flex" className="mt-4">
+                                        <CDBBtn flat color="dark" >
 
-                                            <a href="https://www.facebook.com/LavinCode18/">
+                                            <a href="https://www.facebook.com/LavinCode18/" target="_blank" rel="noopener noreferrer">
                                                 <CDBIcon fab icon="facebook-f"/>
                                             </a>
-
                                         </CDBBtn>
                                         <CDBBtn flat color="dark" className="mx-3">
-                                            <CDBIcon fab icon="twitter" />
+                                            <a href="https://www.linkedin.com/company/lavin-code18/" target="_blank" rel="noopener noreferrer">
+                                                <LinkedinFilled/>
+                                            </a>
                                         </CDBBtn>
                                         <CDBBtn flat color="dark" className="p-2">
-                                            <CDBIcon fab icon="instagram" />
+                                            <a href="https://www.instagram.com/lavincode18_itcompany/" target="_blank" rel="noopener noreferrer">
+                                                <CDBIcon fab icon="instagram" />
+                                            </a>
                                         </CDBBtn>
                                     </CDBBox>
                                 </CDBBox>
@@ -146,11 +152,32 @@ export const Footer = () => {
                 </Col>
 
                 <Col md={8}>
-                    <Row>
+                    <Row style={{padding:"52px", justifyContent:"space-between"}}>
+                        <Col md={3}>
+                            <h5>Pages</h5>
+                            <h6>Home</h6>
+                            <h6>About</h6>
+                            <h6>Service</h6>
+                            <h6>Home</h6>
+                            <h6>About</h6>
+                            <h6>Service</h6>
+                        </Col>
+                        <Col md={3}>
+                            <h5>Pages</h5>
+                            <h6>Home</h6>
+                            <h6>About</h6>
+                            <h6>Service</h6>
+                        </Col>
+                        <Col md={2}>
+                            <h5>Pages</h5>
+                            <h6>Home</h6>
+                            <h6>About</h6>
+                            <h6>Service</h6>
+                        </Col>
 
                     </Row>
                     <Row>
-
+                        <p>@2021 Copyright lavincode18.com</p>
                     </Row>
 
 
