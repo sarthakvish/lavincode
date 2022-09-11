@@ -56,11 +56,13 @@
 
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import {Row, Col, Image} from "react-bootstrap";
+import {Row, Col, Image, Container} from "react-bootstrap";
+import "../App.css"
 
 function OurTeam() {
     return (
-        <div>
+        <Container>
+            <h1 className="head1tag">Team leads working to establish your business brand</h1>
             <Row>
                 <Col md={4}>
                     <Card style={{ width: '18rem' }}>
@@ -126,8 +128,8 @@ function OurTeam() {
                     </Card>
                 </Col>
             </Row>
+        </Container>
 
-        </div>
 
 
     );

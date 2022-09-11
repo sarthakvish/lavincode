@@ -2,12 +2,13 @@ import React, {useEffect} from 'react';
 import {Card, Button, Col, Row, ListGroup, Image, ListGroupItem} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import contactus from "../assets/images/contactusgirl.png"
-
+import "../App.css"
 
 function ContactUs() {
 
     return (
         <div>
+            <h1 className="head1tag">Please feel free to contact, don't worry we shall assist you from basics to advance.</h1>
             <Row>
                 <Col md={8}>
                     <ListGroup variant='flush'>
