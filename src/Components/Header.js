@@ -4,6 +4,9 @@ import logo from "../assets/images/logo.png"
 import "antd/dist/antd.css";
 import { Col, Row} from 'antd';
 import { Link } from "react-router-dom";
+import {
+    HomeFilled,InfoCircleFilled,TeamOutlined, SettingFilled,PhoneFilled
+} from '@ant-design/icons';
 const { Header, Content, Footer} = Layout;
 
 
@@ -15,7 +18,7 @@ const items = [
             </Link>
         ),
         key: 'home',
-        icon: "",
+        icon: <HomeFilled />,
     },
     {
         label: (
@@ -24,12 +27,12 @@ const items = [
             </Link>
         ),
         key: 'about us',
-        icon: "",
+        icon: <InfoCircleFilled />,
     },
     {
         label: 'Services',
         key: 'Services',
-        icon: "",
+        icon: <SettingFilled />,
         children: [
             {
                 type: 'group',
@@ -72,6 +75,7 @@ const items = [
             </Link>
         ),
         key: 'ourteam',
+        icon:<TeamOutlined />,
     },
     {
         label: (
@@ -80,6 +84,7 @@ const items = [
             </Link>
         ),
         key: 'contactus',
+        icon:<PhoneFilled />,
     }
 ];
 

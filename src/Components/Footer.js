@@ -108,7 +108,7 @@ import contactus from "../assets/images/contactusgirl.png";
 export const Footer = () => {
     return (
         <div>
-            <Row style={{ backgroundColor: "black", color: "whitesmoke" }}>
+            <Row className="footer-bg">
                 <Col md={4}>
 
                         <CDBBox display="flex" flex="column" className="mx-auto py-5" style={{ width: '90%' }}>
@@ -118,10 +118,10 @@ export const Footer = () => {
                                         <img alt="logo" src={logo} width="200px" />
                                         {/*<span className="ml-3 h5 font-weight-bold">Devwares</span>*/}
                                     </a>
-                                    <p className="my-3" style={{ width: '250px' }}>
-                                        We are creating High Quality Resources and tools to Aid developers during the
-                                        developement of their projects
-                                    </p>
+                                    {/*<p className="my-3" style={{ width: '250px' }}>*/}
+                                    {/*    We are creating High Quality Resources and tools to Aid developers during the*/}
+                                    {/*    developement of their projects*/}
+                                    {/*</p>*/}
                                     <CDBBox display="flex" className="mt-4">
                                         <CDBBtn flat color="dark">
                                             <CDBIcon fab icon="facebook-f" />

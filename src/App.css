@@ -81,18 +81,37 @@ body {
 }
 .carousel-img{
   height: 372px;
-  width: 500px;
-  border-radius: 50%;
+  width:770px;
+
 }
 .carousel-item{
   background: lightblue;
 }
-.carousel-control-next {
-  right: 0;
-  background: black;
-}
+
+
+.carousel-control-next, .carousel-control-prev {
+    background: black!important;
+  }
 
 .vedio{
   height: 200px;
   width: 500px;
+}
+
+.footer-bg{
+  background-image: url("../src/assets/images/footerimgbg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 2px solid #CDCDCD;
+
+}
+
+.h1.ant-typography, div.ant-typography-h1, div.ant-typography-h1 > textarea, .ant-typography h1 {
+  color: white!important;
+}
+
+.ant-typography strong {
+  font-weight: 600;
+  font-size: medium;
+  color: wheat;
 }

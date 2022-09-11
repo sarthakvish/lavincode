@@ -1,7 +1,8 @@
 import React, {useEffect} from 'react';
 import {Link} from "react-router-dom";
 import {Carousel, Image} from "react-bootstrap";
-import contactus from "../assets/images/contactusgirl.png"
+import mixingITCore from "../assets/images/mixingItCore.png"
+import automation from "../assets/images/automation-service.png"
 import "../App.css"
 
 function ProductCarousel(props) {
@@ -19,18 +20,18 @@ function ProductCarousel(props) {
 
             >
                 <Link to="">
-                    <Image className="carousel-img" src={contactus} alt="h"/>
+                    <Image className="carousel-img" src={mixingITCore} alt="h"/>
                     <Carousel.Caption>
-                        <h4>e-commerse plateform (Rs.1,50000)</h4>
+                        {/*<h4>e-commerse plateform (Rs.1,50000)</h4>*/}
                     </Carousel.Caption>
                 </Link>
             </Carousel.Item>
 
             <Carousel.Item>
                 <Link to="">
-                    <Image className="carousel-img" src={contactus} alt="kk"/>
+                    <Image className="carousel-img" src={automation} alt="kk"/>
                     <Carousel.Caption>
-                        <h4>Email Engine (Rs. 800000)</h4>
+                        {/*<h4>Email Engine (Rs. 800000)</h4>*/}
                     </Carousel.Caption>
                 </Link>
             </Carousel.Item>

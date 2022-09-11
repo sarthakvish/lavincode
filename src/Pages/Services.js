@@ -7,7 +7,8 @@ import cloud from "../assets/images/cloud-service.png"
 import digital from "../assets/images/digiMktServices.png"
 import uiux from "../assets/images/uiuxservices.png"
 import "../App.css"
-
+import building from '../assets/buildingBusiness.mp4'
+import smilegirl from "../assets/smilegirl.mp4";
 const Services = () => {
     return (
         <Container>
@@ -76,6 +77,13 @@ const Services = () => {
 
                     </Col>
                 </Row>
+            <Row>
+                <Col  sm={12} md={6} lg={4} xl={3}>
+                    <video style={{width:"423%",height:"100%"}} className="v" src={building} autoPlay loop muted/>
+                </Col>
+            </Row>
+
+
 
         </Container>
 
