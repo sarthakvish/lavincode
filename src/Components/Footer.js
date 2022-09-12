@@ -106,7 +106,9 @@ import {Row, Col, Image, ListGroup, ListGroupItem} from "react-bootstrap";
 import {
 LinkedinFilled
 } from '@ant-design/icons';
-import contactus from "../assets/images/contactusgirl.png";
+import { Space, Typography } from 'antd';
+const { Text } = Typography;
+
 
 export const Footer = () => {
     return (
@@ -154,30 +156,65 @@ export const Footer = () => {
                 <Col md={8}>
                     <Row style={{padding:"52px", justifyContent:"space-between"}}>
                         <Col md={3}>
-                            <h5>Pages</h5>
-                            <h6>Home</h6>
-                            <h6>About</h6>
-                            <h6>Service</h6>
-                            <h6>Home</h6>
-                            <h6>About</h6>
-                            <h6>Service</h6>
+                            <Space direction="vertical">
+                                <Typography.Title
+                                    level={3}
+                                    style={{
+                                        margin: 0,
+                                        color:"white"
+                                    }}
+                                >
+                                    Pages
+                                </Typography.Title>
+                                <Text strong>Home</Text>
+                                <Text strong type="secondary">About us</Text>
+                                <Text strong type="success">Services</Text>
+                                <Text strong type="warning">Our Team</Text>
+                                <Text strong type="danger">Contact us</Text>
+                                {/*<Link href="https://ant.design" target="_blank">*/}
+                                {/*    Ant Design (Link)*/}
+                                {/*</Link>*/}
+                            </Space>
                         </Col>
                         <Col md={3}>
-                            <h5>Pages</h5>
-                            <h6>Home</h6>
-                            <h6>About</h6>
-                            <h6>Service</h6>
+                            <Space direction="vertical">
+                                <Typography.Title
+                                    level={3}
+                                    style={{
+                                        margin: 0,
+                                        color:"white"
+                                    }}
+                                >
+                                    Services
+                                </Typography.Title>
+                                <Text strong>Home</Text>
+                                <Text strong type="secondary">IT Services & Solutions</Text>
+                                <Text strong type="success">Core Service</Text>
+                                <Text strong type="warning">Trainings</Text>
+                            </Space>
                         </Col>
                         <Col md={2}>
-                            <h5>Pages</h5>
-                            <h6>Home</h6>
-                            <h6>About</h6>
-                            <h6>Service</h6>
+                            <Space direction="vertical">
+                                <Typography.Title
+                                    level={3}
+                                    style={{
+                                        margin: 0,
+                                        color:"white"
+                                    }}
+                                >
+                                    IT Solutions
+                                </Typography.Title>
+                                <Text strong>Softwares & Applications</Text>
+                                <Text strong type="secondary">UI/UX</Text>
+                                <Text strong type="success">Cloud Solution</Text>
+                                <Text strong type="warning">Automation</Text>
+                                <Text strong type="warning">Digital Marketing</Text>
+                            </Space>
                         </Col>
 
                     </Row>
                     <Row>
-                        <p>@2021 Copyright lavincode18.com</p>
+                        <p style={{color:"white"}}>@2021 Copyright lavincode18.com</p>
                     </Row>
 
 

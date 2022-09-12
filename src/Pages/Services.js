@@ -77,11 +77,11 @@ const Services = () => {
 
                     </Col>
                 </Row>
-            <Row>
-                <Col  sm={12} md={6} lg={4} xl={3}>
-                    <video style={{width:"423%",height:"100%"}} className="v" src={building} autoPlay loop muted/>
-                </Col>
-            </Row>
+            {/*<Row>*/}
+            {/*    <Col  sm={12} md={6} lg={4} xl={3}>*/}
+            {/*        <video style={{width:"423%",height:"100%"}} className="v" src={building} autoPlay loop muted/>*/}
+            {/*    </Col>*/}
+            {/*</Row>*/}
 
 
 

@@ -14,6 +14,7 @@ import Services from "./Pages/Services";
 import About from "./Pages/About";
 import OurTeam from "./Pages/OurTeam";
 import Header1 from "./Components/Header";
+import Training from "./Pages/ItTraining";
 
 function App() {
     const [testimonealsArray, setTestimonealsArray] = React.useState([]);
@@ -61,8 +62,7 @@ function App() {
             <Route path="/About" element={<About/>}/>
             <Route path="/OurTeam" element={<OurTeam/>}/>
             <Route path="/Services" element={<Services/>}/>
-
-
+            <Route path="/ItTraining" element={<Training/>}/>
         </Routes>
         <Footer/>
     </div>

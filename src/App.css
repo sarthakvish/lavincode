@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-image: url("../src/assets/images/bg2.png");
+  font-family:"Berlin Sans FB Demi";
 }
 
 .App-logo {
@@ -55,6 +56,10 @@ body {
 
 .head1tag {
   color: floralwhite;
+}
+
+h2, h3, h4, h5, h6 {
+  color: white!important;
 }
 
 .service-card-body {
