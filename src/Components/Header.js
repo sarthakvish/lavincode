@@ -47,7 +47,10 @@ const items = [
                         key: 'setting:1',
                     },
                     {
-                        label: 'Learning & Internship Programs',
+
+                        label: <Link to="ItTraining">
+                            Learning & Internship Programs
+                            </Link>,
                         key: 'setting:2',
                     },
                 ],
