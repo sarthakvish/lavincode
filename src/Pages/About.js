@@ -35,7 +35,7 @@ const About = () => {
                                 </Text>
                                 .
                             </Paragraph>
-                            <Title level={2}>Guidelines and Resources</Title>
+                            {/*<Title level={2}>Guidelines and Resources</Title>*/}
 
                             {/*<Paragraph>*/}
                             {/*    <ul>*/}
