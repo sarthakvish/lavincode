@@ -64,7 +64,7 @@ function OurTeam() {
         <Container>
             <h1 className="head1tag">Team leads working to establish your business brand</h1>
             <Row>
-                <Col md={4}>
+                <Col md={4} sm={12}>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
                         <Card.Body>

@@ -114,7 +114,7 @@ export const Footer = () => {
     return (
         <div>
             <Row className="footer-bg">
-                <Col md={4}>
+                <Col md={4} sm={12}>
 
                         <CDBBox display="flex" flex="column" className="mx-auto py-5" style={{ width: '90%' }}>
                             <CDBBox display="flex" justifyContent="between" className="flex-wrap">
@@ -153,7 +153,7 @@ export const Footer = () => {
 
                 </Col>
 
-                <Col md={8}>
+                <Col md={8} sm={12}>
                     <Row style={{padding:"52px", justifyContent:"space-between"}}>
                         <Col md={3}>
                             <Space direction="vertical">
