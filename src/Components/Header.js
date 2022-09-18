@@ -113,9 +113,7 @@ const BrandExample = () => {
                     <Header>
                         <div className="container-fluid">
 
-                            <Menu
-                                style={{float: 'right',  display: 'flex'
-                                }}
+                            <Menu classname="navclass"
                                 theme="dark"
                                 onClick={onClick}  mode="horizontal" items={items} />
                         </div>

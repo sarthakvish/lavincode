@@ -10,7 +10,7 @@ const Home = () => {
         <Container fluid>
             <Row>
                 <Col  sm={12} md={6} lg={4} xl={3}>
-                    <video style={{width:"423%",height:"100%"}} className="v" src={building} autoPlay loop muted/>
+                    <video className="video_class" src={building} autoPlay loop muted/>
                 </Col>
             </Row>
             <h1 className="head1tag">

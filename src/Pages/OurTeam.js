@@ -64,8 +64,8 @@ function OurTeam() {
         <Container>
             <h1 className="head1tag">Team leads working to establish your business brand</h1>
             <Row>
-                <Col md={4} sm={12}>
-                    <Card style={{ width: '18rem' }}>
+                <Col md={4}>
+                    <Card style={{margin:"1%"}}>
                         <Card.Img variant="top" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
@@ -86,7 +86,7 @@ function OurTeam() {
                     </Card>
                 </Col>
                 <Col md={4}>
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{margin:"1%"}}>
                         <Card.Img variant="top" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
@@ -107,7 +107,7 @@ function OurTeam() {
                     </Card>
                 </Col>
                 <Col md={4}>
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{margin:"1%"}}>
                         <Card.Img variant="top" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>

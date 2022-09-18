@@ -112,7 +112,7 @@ const { Text } = Typography;
 
 export const Footer = () => {
     return (
-        <div>
+        <div className="footer_style">
             <Row className="footer-bg">
                 <Col md={4} sm={12}>
 
