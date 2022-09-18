@@ -105,12 +105,13 @@ h2, h3, h4, h5, h6 {
 
 .footer-bg{
   background-image: url("../src/assets/images/footerimgbg.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   border: 2px solid #CDCDCD;
-
 }
-
+.footer_style > .row{
+  margin:0px;
+}
 .h1.ant-typography, div.ant-typography-h1, div.ant-typography-h1 > textarea, .ant-typography h1 {
   color: white!important;
 }
@@ -119,4 +120,16 @@ h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-size: medium;
   color: wheat;
+}
+.navclass{
+  grid-template-rows: repeat(4,auto);
+}
+
+@media (max-width: 912px) {
+  .video_class{
+    width:inherit !important;
+  }
+}
+.video_class{
+  width:400%;
 }
