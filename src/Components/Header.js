@@ -13,7 +13,7 @@ const { Header, Content, Footer} = Layout;
 const items = [
     {
         label: (
-            <Link to="home">
+            <Link to="">
                 Home
             </Link>
         ),
